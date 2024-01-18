@@ -1,0 +1,64 @@
+body{
+      background-color: #f5d04e;
+    }
+.card {
+        align-self: center;
+        display:flex;
+        border-radius: 16px;
+        padding: 0.35px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        background-color: black;
+        max-width: 390px;
+        border-width: thin;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+      }
+
+.card .container {
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 16px;
+        position: relative;
+      }
+svg{
+  border-radius: 16px;
+  margin:auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* or 'flex-start', 'flex-end', 'space-between', etc. */
+  align-items: center; 
+}
+.learning{
+        background-color: #f5d04e;
+        border-radius: 6px;
+        text-align: center;
+        padding: 0.45em 0.5em;
+        text-decoration: none;
+        color:black;
+      }
+.card .date{
+  padding-top: 12px;
+
+  /* margin:0px; padding:0px; */
+}
+.card .title{
+        padding-top: 2px;
+        font-size: larger;
+      }
+.card .text{
+      padding-top: 2px;
+        color:#828282;
+    }
+    ul {
+      list-style-type: none;
+      padding: 5px;
+    }
+    li{
+      margin-left: 0%;
+      /* gap: .5rem; */
+    }
